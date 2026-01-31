@@ -1,0 +1,32 @@
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill-name {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    /* For mobile stacking */
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .skill-name {
+        margin-bottom: 0;
+    }
+}
+
+.skill-progress {
+    height: 25px;
+    /* Thicker bar for readability */
+    background-color: #343a40;
+    /* Darker background track */
+    border-radius: 12px;
+}
+
+.progress-bar {
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 25px;
+}

@@ -1,0 +1,12 @@
+<section id="projects" class="py-5 bg-light text-dark">
+    <div class="container py-5">
+        <h2 class="display-4 fw-bold mb-5 text-center">Projects</h2>
+        <div class="row">
+            @for (project of projects; track project.title) {
+            <div class="col-md-4 mb-4">
+                <app-project-card [project]="project"></app-project-card>
+            </div>
+            }
+        </div>
+    </div>
+</section>

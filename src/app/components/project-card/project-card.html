@@ -1,0 +1,16 @@
+<div class="card h-100 shadow-sm border-0 group hover:shadow-2xl transition-all">
+    <div class="h-48 bg-gray-200 relative overflow-hidden card-img-top">
+        <img [src]="project.image" [alt]="project.title"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            style="width: 100%; height: 200px; object-fit: cover;">
+    </div>
+    <div class="card-body p-4">
+        <h5 class="card-title fw-bold mb-2">{{ project.title }}</h5>
+        <p class="card-text text-muted mb-4 small">{{ project.description }}</p>
+        <a [href]="project.link" target="_blank"
+            class="btn btn-outline-primary btn-sm d-inline-flex align-items-center">
+            Live Demo
+            <i class="fas fa-external-link-alt ms-2"></i>
+        </a>
+    </div>
+</div>

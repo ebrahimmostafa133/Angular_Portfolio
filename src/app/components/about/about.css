@@ -1,0 +1,10 @@
+.profile-img-container {
+    height: 500px;
+}
+
+.profile-img {
+    height: 500px;
+    width: 500px;
+    transform: scale(1.2);
+    object-fit: cover;
+}
